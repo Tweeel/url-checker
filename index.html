@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tuta URL Existence Checker</title>
+</head>
+<body>
+<main class="container">
+  <h2>URL Existence Checker</h2>
+  <p class="description">Enter a URL below to verify format and check availability.</p>
+
+  <div class="field-group">
+    <label for="url-input">Target URL</label>
+    <input
+            type="text"
+            id="url-input"
+            placeholder="https://tuta.com/blog/"
+            autocomplete="off"
+    />
+  </div>
+
+  <div id="status-display" class="status-box"></div>
+</main>
+
+<script type="module" src="/src/main.ts"></script>
+</body>
+</html>
